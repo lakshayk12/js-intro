@@ -12,6 +12,15 @@ console.log(user.getLogInCount());
 
 //type
 let i = 0;
-if(typeof i == "string"){
+if (typeof i == "string") {
 
 }
+
+//functional approach of defining an object
+var User = function (name, age) {
+    this.name = name;
+    this.age = age;
+}
+
+var lakshay = new User("Lakshay", 100); //kind of, User is a class
+console.log(lakshay);
