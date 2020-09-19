@@ -39,3 +39,11 @@ lakshay2.getName();
 if (lakshay2.hasOwnProperty("name")) {
     lakshay2.getName();
 }
+
+
+//Self Executing Anonymous function OR IIFE (Immediately Invoked Function Expression)
+(
+    function () {
+        console.log("I am Anonymous!");
+    }
+)();
