@@ -33,3 +33,8 @@ User.prototype.getName = function () {
 var lakshay2 = new User("Lakshay2", 102); //not its the responsibility of "new" keyword to find all those user-defined injections.
 lakshay2.getName();
 //we can even set our own constructor, getters or setters etc.
+
+//object chain, if we call getName but think of it if this.name is not defined, then JS will give us undefined.
+if (lakshay2.hasOwnProperty("name")) {
+    lakshay2.getName();
+}
