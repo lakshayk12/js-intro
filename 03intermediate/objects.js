@@ -16,7 +16,8 @@ if (typeof i == "string") {
 
 }
 
-//functional approach of defining an object
+//functional approach of defining an object | This is funcational programming, function can be treated as a first class.
+// https://www.youtube.com/watch?v=dAPL7MQGjyM
 var User = function (name, age) {
     this.name = name;
     this.age = age;
